@@ -1,0 +1,91 @@
+body {
+    background: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.Formula1 {
+    color: white; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.a-f1 {
+    color: white;
+}
+
+.table-f1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5vh;
+    margin-left: 5vh;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.img-f1 {
+    width: 26vh;
+    height: 26vh;
+}
+
+.Logos-olimpicos {
+    color: white; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.img {
+    width: 35vh;
+    height: 25vh;
+}
+
+.Grupos {
+    color: white; 
+    display: grid;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Mundial {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.Olimpicos {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    background: white;
+    border-radius: 5px;
+}
+
+.dibujo {
+    color: white; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.paises {
+    color: white; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
