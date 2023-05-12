@@ -103,4 +103,8 @@ header {
         grid-template-columns: 1fr 1fr;
         grid-gap: 5vh;
     }
+    
+    .h1 {
+        text-align: center;
+    }
 }
