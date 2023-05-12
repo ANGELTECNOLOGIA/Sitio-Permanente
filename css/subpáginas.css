@@ -104,9 +104,3 @@ header {
         grid-gap: 5vh;
     }
 }
-
-@media(max-height: 500px) {
-    body .text {    
-        margin: 1000%, 0%, 50%, 0%;
-    }
-}
