@@ -90,6 +90,10 @@ header {
     text-align: center;
 }
 
+.h3-em {
+    text-align: center;
+}
+
 @media(max-width: 560px) {
     .Logos-olimpicos{
         display: grid;
