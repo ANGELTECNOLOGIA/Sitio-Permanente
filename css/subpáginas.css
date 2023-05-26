@@ -121,6 +121,28 @@ header {
     border-color: goldenrod;
 }
 
+.paises-img {
+    width: 30%;
+    height: 30%;
+    margin-left: 3%;
+}
+
+.paises-article {
+    font-size: 15px;
+    margin-left: 40%;
+    display: block;
+    block-size: 5px;
+}
+
+.paises-article2 {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.geografia {
+    margin-left: 35%;
+}
+
 @media(max-width: 560px) {
     
 
@@ -145,6 +167,8 @@ header {
         grid-gap: 5vh;
     }
 
+/* Regula el tamaño de letra en "mundial" */
+
     .body-grupos {
         width: 99%;
         height: 8%;
@@ -152,15 +176,42 @@ header {
         text-align: center;
     }
 
+/* Modifica la primera imagen de la tabla en "grupos" */
+
     .h3 {
         text-align: center;
         margin-top: 15px;
         font-size: 10px;
     }
 
+/* Modifica el tamaño de las banderas en el apartado "grupos" */
+
     .img-mundial {
-        width: 35%;
-        height: 25%;
+        width: 25%;
+        height: 15%;
     }
 
+    .paises-img {
+        width: 35%;
+        height: 25%;
+        margin-left: 7%;
+    }
+    
+    .paises-article {
+        font-size: 8px;
+        margin-left: 50%;
+        display: block;
+        block-size: 10px;
+    }
+    
+    .paises-article2 {
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 8px;
+    }
+
+    .geografia {
+        margin-left: 12%;
+    }
+    
 }
