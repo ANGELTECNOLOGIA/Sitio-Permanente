@@ -142,4 +142,23 @@ header {
         height: 100%;
         grid-gap: 5vh;
     }
+
+    .body-grupos {
+        width: 99%;
+        height: 8%;
+        font-size: 5px;
+        text-align: center;
+    }
+
+    .h3 {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 10px;
+    }
+
+    .img-mundial {
+        width: 15%;
+        height: 10%;
+    }
+
 }
