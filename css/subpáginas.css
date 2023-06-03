@@ -90,6 +90,10 @@ header {
     text-align: center;
 }
 
+.div {
+    text-align: center;
+}
+
 .h3-em {
     text-align: center;
 }
@@ -137,6 +141,10 @@ header {
 .paises-article2 {
     margin-left: 3%;
     margin-right: 3%;
+}
+
+.chino {
+    font-family: 'Noto Serif SC', serif;
 }
 
 @media(max-width: 560px) {
