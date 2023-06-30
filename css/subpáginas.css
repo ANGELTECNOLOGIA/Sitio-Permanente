@@ -215,3 +215,22 @@ header {
     }
     
 }
+
+@media (max-width: 197px) {
+    .paises-article {
+        font-size: 10%;
+        margin-left: 50%;
+        display: block;
+        block-size: 1px;
+    }
+    
+    .paises-article2 {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+    .chino {
+        font-family: 'Noto Serif SC', serif;
+    }
+    
+}
