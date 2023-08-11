@@ -8,8 +8,8 @@
 }
 
 .Olimpicos {
-    width: 325px;
-    height: 275px;
+    width: 425px;
+    height: 355px;
     background: white;
     border-radius: 5px;
     margin-left: 25px;
@@ -17,8 +17,8 @@
 }
 
 .Datos-Generales {
-    margin-left: 35px;
-    font-size: 20px;
+    margin-left: 105px;
+    font-size: 18px;
     font-family: 'Borel', cursive;
 }
 
