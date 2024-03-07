@@ -125,6 +125,14 @@ header {
     border-color: goldenrod;
 }
 
+.img-p {
+    width: 35vh;
+    height: 25vh;
+    border-radius: 10px;
+    border-color: gray;
+    border-style: solid;
+}
+
 .paises-img {
     width: 30%;
     height: 30%;
@@ -148,7 +156,6 @@ header {
 }
 
 @media(max-width: 560px) {
-    
 
     .Logos-olimpicos{
         display: grid;
@@ -212,6 +219,17 @@ header {
         margin-left: 3%;
         margin-right: 3%;
         font-size: 8px;
+    }
+
+    .Formula1 {
+        color: white; 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        text-align: center;
+        margin-top: 5vh;
     }
     
 }
