@@ -110,13 +110,73 @@ header {
     text-align: center;
 }
 
+.h2-f1 {
+    text-align: center;
+    font-size: 20px;
+}
+
 .h3 {
     text-align: center;
     margin-top: 30px;
     font-size: 20px;
 }
 
+.h3-f1 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.piloto {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.pais-f1 {
+    width: 135px;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.escuderia {
+    width: 130px;
+    height: 120px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.time {
+    padding: 75px;
+}
+
+.points {
+    padding: 35px;
+}
+
 .img-mundial {
+    width: 40%;
+    height: 70%;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: goldenrod;
+}
+
+.img-f1 {
     width: 40%;
     height: 70%;
     margin-top: 30px;
@@ -231,7 +291,57 @@ header {
         text-align: center;
         margin-top: 5vh;
     }
+
+    .h2-f1 {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .h3-f1 {
+        text-align: center;
+        font-size: 7.5px;
+    }
     
+    .foto {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    
+    .piloto {
+        padding-left: 12.5px;
+        padding-right: 12.5px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .pais-f1 {
+        width: 67.5px;
+        height: 45px;
+        border-radius: 10px;
+        margin-top: 12.5px;
+        margin-bottom: 12.5px;
+        margin-right: 12.5px;
+        margin-left: 12.5px;
+    }
+    
+    .escuderia {
+        width: 65px;
+        height: 60px;
+        border-radius: 10px;
+        margin-top: 12.5px;
+        margin-bottom: 12.5px;
+        margin-right: 12.5px;
+        margin-left: 12.5px;
+    }
+
+    .time {
+        padding: 37.5px;
+    }
+
+    .points {
+        padding: 17.5px;
+    }
 }
 
 @media (max-width: 197px) {
