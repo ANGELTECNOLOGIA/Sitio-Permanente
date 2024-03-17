@@ -48,7 +48,7 @@ disabled
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
     <!-- CSS CUSTOM -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
@@ -60,6 +60,52 @@ disabled
             <p class="text">Bienvenidos a mi blog, aqui podran encontrar muchas cosas</p>
         </div>
     </header>
+
+    <!-- Reproductor -->
+    <section class="about bg-light">
+        <div class="container text-center">
+            <div class="body-container">
+            <div class="container-reproductor">
+
+                <audio></audio>
+                <h1>Song</h1>
+                <h2>Author</h2>
+                
+                <div class="container_buttons_times">
+                    <div id="current_time">0:00</div>
+                
+                <div class="button">
+                    <button id="prev">
+                        <i class="fas fa-backward"></i>
+                    </button>
+                    <button id="back10">
+                        <i class="fa-solid fa-rotate-left"></i>
+                    </button>
+                    <button id="play">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button id="plus10">
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </button>
+                    <button id="next">
+                        <i class="fas fa-forward"></i>
+                    </button>
+                </div>
+                
+                <div id="current_audio"></div>
+                </div>
+                
+                <div class="progress_container">
+                    <div id="progress"></div>
+                </div>
+                
+                </div>
+                <script src="main.js"></script>
+                </body>
+                </html>
+        </div>
+        </div>
+    </section>
 
     <!-- Deportes -->
     <Section class="services text-center">
@@ -153,6 +199,6 @@ disabled
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         <!-- DOCUMENTO PRINCIPAL JS -->
-        <script src="js/main.js"></script>
+        <script src="./js/main.js"></script>
 </body>
 </html>
