@@ -215,6 +215,11 @@ header {
     font-family: 'Noto Serif SC', serif;
 }
 
+.Patrocinador-f1 {
+    width: 190px;
+    height: 85px;
+}
+
 @media(max-width: 560px) {
 
     .Logos-olimpicos{
