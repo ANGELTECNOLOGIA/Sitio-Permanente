@@ -220,6 +220,11 @@ header {
     height: 85px;
 }
 
+.crypto-f1 {
+    width: 120px;
+    height: 74px;
+}
+
 @media(max-width: 560px) {
 
     .Logos-olimpicos{
