@@ -225,6 +225,12 @@ header {
     height: 74px;
 }
 
+.nepal {
+    width: 18%;
+    height: 18%;
+    margin-left: 10%;
+}
+
 @media(max-width: 560px) {
 
     .Logos-olimpicos{
@@ -351,6 +357,12 @@ header {
 
     .points {
         padding: 17.5px;
+    }
+
+    .nepal {
+        width: 18%;
+        height: 18%;
+        margin-left: 10%;
     }
 }
 
