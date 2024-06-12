@@ -22,6 +22,9 @@ header {
 
 .a-f1 {
     color: white;
+}
+
+a .a-f1 {
     text-decoration: none;
 }
 
