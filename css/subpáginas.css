@@ -24,10 +24,6 @@ header {
     color: white;
 }
 
-a .a-f1 {
-    text-decoration: none;
-}
-
 .table-f1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -235,6 +231,12 @@ a .a-f1 {
     margin-left: 10%;
 }
 
+.niger {
+    width: 360px;
+    height: 260px;
+    margin-left: 5%;
+}
+
 @media(max-width: 560px) {
 
     .Logos-olimpicos{
@@ -387,4 +389,12 @@ a .a-f1 {
         font-family: 'Noto Serif SC', serif;
     }
     
+}
+
+@media (max-height: 812px) {
+    .niger {
+        width: 25%;
+        height: 100%;
+        margin-left: 8%;
+    }
 }
