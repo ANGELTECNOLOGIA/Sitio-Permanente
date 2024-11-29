@@ -14,8 +14,8 @@ const progress = document.getElementById("progress");
 const back10 = document.getElementById("back10");
 const plus10 = document.getElementById("plus10");
 
-const songs = ["How You Get The Girl", "Skapate", "Sobreviviste", "One Spark", "Sunburn Surrender", "Desvelo", "Somebody's Watching Me", "Todo o nada", "La Intención"];
-const authors = ["Taylor Swift", "Los de Abajo ft. Julieta Venegas, Dr.Shenka, Edw Dub", "Morat", "TWICE", "Capital Cities", "C-Kan, Raymix", "Rockwell, Michael Jackson", "Lunay, Anitta", "Christian Nodal, Peso Pluma"];
+const songs = ["Solo", "Lifetimes", "Am I Dreaming", "Liztomania", "1901", "How You Get The Girl", "Skapate", "Sobreviviste", "One Spark", "Sunburn Surrender", "Supershy", "Desvelo", "Somebody's Watching Me", "Todo o nada", "La Intención", "Recien Soltera", "Nonstop"];
+const authors = ["Clean Bandit, Demi Lovato", "Katy Perry", "Metro Boomin, A$AP Rocky, Roisee", "Phoenix", "Phoenix", "Taylor Swift", "Los de Abajo ft. Julieta Venegas, Dr.Shenka, Edw Dub", "Morat", "TWICE", "Capital Cities", "Newjeans", "C-Kan, Raymix", "Rockwell, Michael Jackson", "Lunay, Anitta", "Christian Nodal, Peso Pluma", "Paulo londra", "Oh My Girl"];
 
 let audioIndex = 0;
 
